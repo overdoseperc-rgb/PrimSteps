@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 595" width="990" height="595" role="img" aria-labelledby="title" font-family="Arial,sans-serif">
+<title id="title">Алгоритм Прима от Казани, четыре шага</title>
+<rect width="990" height="595" fill="#eff4f8"/>
+<text x="19" y="32" font-size="23" font-weight="bold" fill="#163046">Алгоритм Прима · старт в Казани</text>
+<text x="20" y="55" font-size="14" fill="#364c61">Зелёная линия — новая дорога, синяя — дорога в дереве, серая — остальные. Вес указан в километрах.</text>
+<g transform="translate(15,70)">
+<rect width="304" height="249" rx="12" fill="white" stroke="#c6d6e4"/>
+<text x="12" y="25" font-size="16" font-weight="bold" fill="#163046">0. Начальный город</text>
+<text x="12" y="47" font-size="14" fill="#364c61">Вес дерева: 0 км</text>
+<path d="M55 94 L244 94" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="179" y="88" font-size="12" fill="#264158">160</text>
+<path d="M55 94 L55 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="63" y="123" font-size="12" fill="#264158">800</text>
+<path d="M55 164 L55 234" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="62" y="194" font-size="12" fill="#264158">710</text>
+<path d="M55 164 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="179" y="145" font-size="12" fill="#264158">1620</text>
+<path d="M244 94 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="252" y="123" font-size="12" fill="#264158">1800</text>
+<rect x="8" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="98" text-anchor="middle" font-size="12" fill="#163046">Казань</text>
+<rect x="8" y="152" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="55" y="168" text-anchor="middle" font-size="12" fill="#163046">Москва</text>
+<rect x="197" y="152" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="244" y="168" text-anchor="middle" font-size="12" fill="#163046">Сочи</text>
+<rect x="8" y="222" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="55" y="238" text-anchor="middle" font-size="12" fill="#163046">С.-Петербург</text>
+<rect x="197" y="82" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="244" y="98" text-anchor="middle" font-size="12" fill="#163046">Чебоксары</text>
+</g>
+<g transform="translate(343,70)">
+<rect width="304" height="249" rx="12" fill="white" stroke="#c6d6e4"/>
+<text x="12" y="25" font-size="16" font-weight="bold" fill="#163046">1. Казань — Чебоксары</text>
+<text x="12" y="47" font-size="14" fill="#364c61">Вес дерева: 160 км</text>
+<path d="M55 94 L244 94" fill="none" stroke="#008452" stroke-width="4"/>
+<text x="179" y="88" font-size="12" fill="#264158">160</text>
+<path d="M55 94 L55 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="63" y="123" font-size="12" fill="#264158">800</text>
+<path d="M55 164 L55 234" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="62" y="194" font-size="12" fill="#264158">710</text>
+<path d="M55 164 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="179" y="145" font-size="12" fill="#264158">1620</text>
+<path d="M244 94 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="252" y="123" font-size="12" fill="#264158">1800</text>
+<rect x="8" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="98" text-anchor="middle" font-size="12" fill="#163046">Казань</text>
+<rect x="8" y="152" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="55" y="168" text-anchor="middle" font-size="12" fill="#163046">Москва</text>
+<rect x="197" y="152" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="244" y="168" text-anchor="middle" font-size="12" fill="#163046">Сочи</text>
+<rect x="8" y="222" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="55" y="238" text-anchor="middle" font-size="12" fill="#163046">С.-Петербург</text>
+<rect x="197" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="244" y="98" text-anchor="middle" font-size="12" fill="#163046">Чебоксары</text>
+</g>
+<g transform="translate(671,70)">
+<rect width="304" height="249" rx="12" fill="white" stroke="#c6d6e4"/>
+<text x="12" y="25" font-size="16" font-weight="bold" fill="#163046">2. Казань — Москва</text>
+<text x="12" y="47" font-size="14" fill="#364c61">Вес дерева: 960 км</text>
+<path d="M55 94 L244 94" fill="none" stroke="#255bb0" stroke-width="4"/>
+<text x="179" y="88" font-size="12" fill="#264158">160</text>
+<path d="M55 94 L55 164" fill="none" stroke="#008452" stroke-width="4"/>
+<text x="63" y="123" font-size="12" fill="#264158">800</text>
+<path d="M55 164 L55 234" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="62" y="194" font-size="12" fill="#264158">710</text>
+<path d="M55 164 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="179" y="145" font-size="12" fill="#264158">1620</text>
+<path d="M244 94 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="252" y="123" font-size="12" fill="#264158">1800</text>
+<rect x="8" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="98" text-anchor="middle" font-size="12" fill="#163046">Казань</text>
+<rect x="8" y="152" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="168" text-anchor="middle" font-size="12" fill="#163046">Москва</text>
+<rect x="197" y="152" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="244" y="168" text-anchor="middle" font-size="12" fill="#163046">Сочи</text>
+<rect x="8" y="222" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="55" y="238" text-anchor="middle" font-size="12" fill="#163046">С.-Петербург</text>
+<rect x="197" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="244" y="98" text-anchor="middle" font-size="12" fill="#163046">Чебоксары</text>
+</g>
+<g transform="translate(15,330)">
+<rect width="304" height="249" rx="12" fill="white" stroke="#c6d6e4"/>
+<text x="12" y="25" font-size="16" font-weight="bold" fill="#163046">3. Москва — Санкт-Петербург</text>
+<text x="12" y="47" font-size="14" fill="#364c61">Вес дерева: 1670 км</text>
+<path d="M55 94 L244 94" fill="none" stroke="#255bb0" stroke-width="4"/>
+<text x="179" y="88" font-size="12" fill="#264158">160</text>
+<path d="M55 94 L55 164" fill="none" stroke="#255bb0" stroke-width="4"/>
+<text x="63" y="123" font-size="12" fill="#264158">800</text>
+<path d="M55 164 L55 234" fill="none" stroke="#008452" stroke-width="4"/>
+<text x="62" y="194" font-size="12" fill="#264158">710</text>
+<path d="M55 164 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="179" y="145" font-size="12" fill="#264158">1620</text>
+<path d="M244 94 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="252" y="123" font-size="12" fill="#264158">1800</text>
+<rect x="8" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="98" text-anchor="middle" font-size="12" fill="#163046">Казань</text>
+<rect x="8" y="152" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="168" text-anchor="middle" font-size="12" fill="#163046">Москва</text>
+<rect x="197" y="152" width="94" height="24" rx="7" fill="#f4f6f8" stroke="#a2afba"/>
+<text x="244" y="168" text-anchor="middle" font-size="12" fill="#163046">Сочи</text>
+<rect x="8" y="222" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="238" text-anchor="middle" font-size="12" fill="#163046">С.-Петербург</text>
+<rect x="197" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="244" y="98" text-anchor="middle" font-size="12" fill="#163046">Чебоксары</text>
+</g>
+<g transform="translate(343,330)">
+<rect width="304" height="249" rx="12" fill="white" stroke="#c6d6e4"/>
+<text x="12" y="25" font-size="16" font-weight="bold" fill="#163046">4. Москва — Сочи</text>
+<text x="12" y="47" font-size="14" fill="#364c61">Вес дерева: 3290 км</text>
+<path d="M55 94 L244 94" fill="none" stroke="#255bb0" stroke-width="4"/>
+<text x="179" y="88" font-size="12" fill="#264158">160</text>
+<path d="M55 94 L55 164" fill="none" stroke="#255bb0" stroke-width="4"/>
+<text x="63" y="123" font-size="12" fill="#264158">800</text>
+<path d="M55 164 L55 234" fill="none" stroke="#255bb0" stroke-width="4"/>
+<text x="62" y="194" font-size="12" fill="#264158">710</text>
+<path d="M55 164 L244 164" fill="none" stroke="#008452" stroke-width="4"/>
+<text x="179" y="145" font-size="12" fill="#264158">1620</text>
+<path d="M244 94 L244 164" fill="none" stroke="#a2afba" stroke-width="2"/>
+<text x="252" y="123" font-size="12" fill="#264158">1800</text>
+<rect x="8" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="98" text-anchor="middle" font-size="12" fill="#163046">Казань</text>
+<rect x="8" y="152" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="168" text-anchor="middle" font-size="12" fill="#163046">Москва</text>
+<rect x="197" y="152" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="244" y="168" text-anchor="middle" font-size="12" fill="#163046">Сочи</text>
+<rect x="8" y="222" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="55" y="238" text-anchor="middle" font-size="12" fill="#163046">С.-Петербург</text>
+<rect x="197" y="82" width="94" height="24" rx="7" fill="#dceaff" stroke="#4271b5"/>
+<text x="244" y="98" text-anchor="middle" font-size="12" fill="#163046">Чебоксары</text>
+</g>
+</svg>
